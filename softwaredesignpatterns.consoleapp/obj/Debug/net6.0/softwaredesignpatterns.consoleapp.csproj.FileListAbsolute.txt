@@ -1,0 +1,15 @@
+C:\Users\admin\Masaüstü\Git\softwaredesignpatterns\softwaredesignpatterns.consoleapp\bin\Debug\net6.0\softwaredesignpatterns.consoleapp.exe
+C:\Users\admin\Masaüstü\Git\softwaredesignpatterns\softwaredesignpatterns.consoleapp\bin\Debug\net6.0\softwaredesignpatterns.consoleapp.deps.json
+C:\Users\admin\Masaüstü\Git\softwaredesignpatterns\softwaredesignpatterns.consoleapp\bin\Debug\net6.0\softwaredesignpatterns.consoleapp.runtimeconfig.json
+C:\Users\admin\Masaüstü\Git\softwaredesignpatterns\softwaredesignpatterns.consoleapp\bin\Debug\net6.0\softwaredesignpatterns.consoleapp.dll
+C:\Users\admin\Masaüstü\Git\softwaredesignpatterns\softwaredesignpatterns.consoleapp\bin\Debug\net6.0\softwaredesignpatterns.consoleapp.pdb
+C:\Users\admin\Masaüstü\Git\softwaredesignpatterns\softwaredesignpatterns.consoleapp\obj\Debug\net6.0\softwaredesignpatterns.consoleapp.csproj.AssemblyReference.cache
+C:\Users\admin\Masaüstü\Git\softwaredesignpatterns\softwaredesignpatterns.consoleapp\obj\Debug\net6.0\softwaredesignpatterns.consoleapp.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\admin\Masaüstü\Git\softwaredesignpatterns\softwaredesignpatterns.consoleapp\obj\Debug\net6.0\softwaredesignpatterns.consoleapp.AssemblyInfoInputs.cache
+C:\Users\admin\Masaüstü\Git\softwaredesignpatterns\softwaredesignpatterns.consoleapp\obj\Debug\net6.0\softwaredesignpatterns.consoleapp.AssemblyInfo.cs
+C:\Users\admin\Masaüstü\Git\softwaredesignpatterns\softwaredesignpatterns.consoleapp\obj\Debug\net6.0\softwaredesignpatterns.consoleapp.csproj.CoreCompileInputs.cache
+C:\Users\admin\Masaüstü\Git\softwaredesignpatterns\softwaredesignpatterns.consoleapp\obj\Debug\net6.0\softwaredesignpatterns.consoleapp.dll
+C:\Users\admin\Masaüstü\Git\softwaredesignpatterns\softwaredesignpatterns.consoleapp\obj\Debug\net6.0\refint\softwaredesignpatterns.consoleapp.dll
+C:\Users\admin\Masaüstü\Git\softwaredesignpatterns\softwaredesignpatterns.consoleapp\obj\Debug\net6.0\softwaredesignpatterns.consoleapp.pdb
+C:\Users\admin\Masaüstü\Git\softwaredesignpatterns\softwaredesignpatterns.consoleapp\obj\Debug\net6.0\softwaredesignpatterns.consoleapp.genruntimeconfig.cache
+C:\Users\admin\Masaüstü\Git\softwaredesignpatterns\softwaredesignpatterns.consoleapp\obj\Debug\net6.0\ref\softwaredesignpatterns.consoleapp.dll
