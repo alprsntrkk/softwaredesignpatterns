@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace softwaredesignpatterns.consoleapp.Patterns.CommandPattern
+namespace softwaredesignpatterns.consoleapp.Patterns.Behavioral.CommandPattern
 {
     public class SayHiCommand : ICommand
     {
@@ -14,9 +14,10 @@ namespace softwaredesignpatterns.consoleapp.Patterns.CommandPattern
         {
             userName = _userName;
         }
+
         public void Execute()
         {
-            Console.WriteLine(String.Format("Hi {0}!",userName ));
+            Console.WriteLine(String.Format("Hi {0}!", userName));
         }
     }
 }
