@@ -1,5 +1,5 @@
 ﻿using softwaredesignpatterns.consoleapp.Patterns.Behavioral.MediatorPattern;
-using softwaredesignpatterns.consoleapp.Patterns.CommandPattern;
+using softwaredesignpatterns.consoleapp.Patterns.Behavioral.CommandPattern;
 using System;
 using System.Collections.Generic;
 using System.Linq;

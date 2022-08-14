@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace softwaredesignpatterns.consoleapp.Patterns.CommandPattern
+namespace softwaredesignpatterns.consoleapp.Patterns.Behavioral.CommandPattern
 {
     public interface ICommand
     {

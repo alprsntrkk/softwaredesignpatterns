@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace softwaredesignpatterns.consoleapp.Patterns.Behavioral.MediatorPattern
 {
-    internal class ConcreteUserMediator : IUserMediator
+    public class ConcreteUserMediator : IUserMediator
     {
         private User firstUser;
         private User secondUser;
