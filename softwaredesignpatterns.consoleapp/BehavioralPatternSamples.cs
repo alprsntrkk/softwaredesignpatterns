@@ -1,23 +1,15 @@
-﻿using softwaredesignpatterns.consoleapp.Patterns.Behavioral.MediatorPattern;
-using softwaredesignpatterns.consoleapp.Patterns.Behavioral.CommandPattern;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using softwaredesignpatterns.consoleapp.Patterns.Creational.Singleton;
+﻿using softwaredesignpatterns.consoleapp.Patterns.Behavioral.CommandPattern;
+using softwaredesignpatterns.consoleapp.Patterns.Behavioral.MediatorPattern;
 
 namespace softwaredesignpatterns.consoleapp
 {
-    public class PatternSamples
+    public class BehavioralPatternSamples
     {
-        public PatternSamples()
+        public BehavioralPatternSamples()
         {
             PerformCommandPattern();
 
             PerformMediatorPattern();
-
-            PerformSingletonPattern();
         }
 
         private void PerformCommandPattern()
@@ -39,15 +31,6 @@ namespace softwaredesignpatterns.consoleapp
 
             adminUser.Send("Hi regular user!");
             regularUser.Send("Hi admin!");
-        }
-
-        private void PerformSingletonPattern()
-        {
-            Singleton firstInstance = Singleton.GetInstance();
-            Singleton secondInstance = Singleton.GetInstance();
-
-            if (firstInstance == secondInstance)
-                Console.WriteLine("Singleton: These instances are same!");
         }
     }
 }
