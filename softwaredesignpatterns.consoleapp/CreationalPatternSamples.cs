@@ -24,7 +24,7 @@ namespace softwaredesignpatterns.consoleapp
         private void PerformPrototypePattern()
         {
             Alien alien = new Alien(1, "Alper Şentürk");
-            var copiedAlien = (Alien)alien.Clone();
+            var copiedAlien = alien.Clone();
 
             if (!alien.Equals(copiedAlien))
                 Console.WriteLine("Prototype: These aliens have ability to clone!!");
