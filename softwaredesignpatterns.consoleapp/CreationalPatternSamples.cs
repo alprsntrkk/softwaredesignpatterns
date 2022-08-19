@@ -1,4 +1,5 @@
-﻿using softwaredesignpatterns.consoleapp.Patterns.Creational.Singleton;
+﻿using softwaredesignpatterns.consoleapp.Patterns.Creational.Prototype;
+using softwaredesignpatterns.consoleapp.Patterns.Creational.Singleton;
 
 namespace softwaredesignpatterns.consoleapp
 {
@@ -7,6 +8,8 @@ namespace softwaredesignpatterns.consoleapp
         public CreationalPatternSamples()
         {
             PerformSingletonPattern();
+
+            PerformPrototypePattern();
         }
 
         private void PerformSingletonPattern()
@@ -16,6 +19,15 @@ namespace softwaredesignpatterns.consoleapp
 
             if (firstInstance == secondInstance)
                 Console.WriteLine("Singleton: These instances are same!");
+        }
+
+        private void PerformPrototypePattern()
+        {
+            Alien alien = new Alien(1, "Alper Şentürk");
+            var copiedAlien = (Alien)alien.Clone();
+
+            if (!alien.Equals(copiedAlien))
+                Console.WriteLine("Prototype: These aliens have ability to clone!!");
         }
     }
 }
