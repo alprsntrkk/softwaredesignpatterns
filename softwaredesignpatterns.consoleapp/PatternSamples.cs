@@ -5,6 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using softwaredesignpatterns.consoleapp.Patterns.Creational.Singleton;
 
 namespace softwaredesignpatterns.consoleapp
 {
@@ -15,6 +16,8 @@ namespace softwaredesignpatterns.consoleapp
             PerformCommandPattern();
 
             PerformMediatorPattern();
+
+            PerformSingletonPattern();
         }
 
         private void PerformCommandPattern()
@@ -36,6 +39,15 @@ namespace softwaredesignpatterns.consoleapp
 
             adminUser.Send("Hi regular user!");
             regularUser.Send("Hi admin!");
+        }
+
+        private void PerformSingletonPattern()
+        {
+            Singleton firstInstance = Singleton.GetInstance();
+            Singleton secondInstance = Singleton.GetInstance();
+
+            if (firstInstance == secondInstance)
+                Console.WriteLine("Singleton: These instances are same!");
         }
     }
 }
