@@ -1,3 +1,4 @@
 ﻿using softwaredesignpatterns.consoleapp;
 
-PatternSamples patternSamples = new PatternSamples();
+BehavioralPatternSamples behavioralPatternSamples = new BehavioralPatternSamples();
+CreationalPatternSamples creationalPatternSamples = new CreationalPatternSamples();
